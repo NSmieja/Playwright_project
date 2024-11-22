@@ -2,7 +2,7 @@
 const { test, expect } = require('@playwright/test');
 
 
-test.describe("Swag Lab - checkout pages tests", () => {
+test.describe("Checkout pages", () => {
   test.beforeEach(async ({ page }) => {
 
     // login to the main page

@@ -2,7 +2,7 @@
 const { test, expect } = require('@playwright/test');
 
 
-test.describe("Swag Lab - login page tests", () => {
+test.describe("Login page", () => {
   test("SCENARIO 1: User should be able to log in with standard user given the correct credentials.", async ({ page }) => {
     await test.step("GIVEN: User goes to the Swag Lab login page", async () => {
       await page.goto("https://www.saucedemo.com/");

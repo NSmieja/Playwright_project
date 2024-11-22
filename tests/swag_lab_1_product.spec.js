@@ -2,7 +2,7 @@
 const { test, expect } = require('@playwright/test');
 
 
-test.describe("Swag Lab - inventory and single product page tests", () => {
+test.describe("Inventory and single product page", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto("https://www.saucedemo.com/");
     await page.waitForLoadState("networkidle");
