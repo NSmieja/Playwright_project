@@ -1,7 +1,7 @@
 name: Playwright Project - Tests
 on:
   schedule:
-  - cron: '0 1 * * 6-7'  # (@ 01:00 AM Saturday-Sunday) https://crontab.cronhub.io/
+  - cron: '0 22 * * 6-7'  # (@ 10:00 PM Saturday-Sunday) https://crontab.cronhub.io/
   workflow_dispatch: 
   push:
     branches: [ main, master ]
