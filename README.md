@@ -2,6 +2,8 @@
 - Link to tests: [GitHub Pages](https://nsmieja.github.io/Playwright_project/)
 - Link to tested page: [Swag Lab](https://www.saucedemo.com/)
 
+
+
 ## Project requirements
 Creating automated test suite (UI) for regression testing with Playwright for website: https://www.saucedemo.com/
 
@@ -20,6 +22,8 @@ Creating automated test suite (UI) for regression testing with Playwright for we
 ### Deadline:
 ✨Appreciate it if we get it by 9th of December.
 
+
+
 ## SCENARIOS
 * SCENARIO 1: User should be able to log in with standard user given the correct credentials.
 * SCENARIO 2: User should not be able to access the e-shop inventory without logging in.
@@ -36,9 +40,7 @@ Creating automated test suite (UI) for regression testing with Playwright for we
 * SCENARIO 13: User should see the checkout overview with details such as payment, shipping info, price total.
 * SCENARIO 14: User should get notified when they fail to enter any of the checkout information.
 * SCENARIO 15: User should get notified after placing a successful order.
-* SCENARIO 16: EXTRA SCENARIO FROM YOU.
-* SCENARIO 17: EXTRA SCENARIO FROM YOU.
-
-
-
+* SCENARIO 16: EXTRA SCENARIO FROM YOU. -> After finishing placing an order, user should be able to return to main page by clicking 'Back Home' button and the cart icon should not have any items.
+* SCENARIO 17: EXTRA SCENARIO FROM YOU -> User can navigate to the Twitter (X) page by clicking on the 'bird' icon.
+    * Note: Not tested with use of test.step() method due to the link to an external page (page opened in a new tab)
 
