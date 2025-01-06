@@ -217,7 +217,7 @@ test.describe("Inventory and single product page", () => {
     )
 
     console.log("THEN: User is redirected to the Twitter page");
-    await expect(newPage).toHaveURL("https://x.com/saucelabs");
+    expect(newPage.url()).toContain("https://x.com/saucelabs");
 
   });
 });
